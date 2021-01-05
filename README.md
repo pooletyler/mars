@@ -10,3 +10,8 @@ How to run this app:
 
 1. clone and run npm install
 2. run npm start
+
+Further considerations for future development:
+
+1. The UX and UI aren't very engaging right now, but this was done very quickly.
+2. Limit the pictures shown on screen and load in increments via pagination.

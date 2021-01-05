@@ -9,18 +9,14 @@
 .Navbar--icon {
   margin: auto 0;
   cursor: pointer;
+  width: 215px;
 }
 
 .Navbar--nasa {
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .Navbar--search {
   display: flex;
-  margin: auto 0;
-}
-
-.Navbar--searchButton {
-  display: flex;
-  margin: 0 10px;
+  margin: auto 10px auto;
 }

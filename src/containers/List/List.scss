@@ -23,7 +23,11 @@
 }
 
 .List--picture {
-  margin: 10px 0;
+  display: block;
+  width: 95%;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
 }
 
 .List--noResults {
@@ -31,5 +35,5 @@
   font-weight: 600;
   color: #282828ce;
   letter-spacing: 0;
-  margin: 40px 0;
+  margin: 40px 10px;
 }

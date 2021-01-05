@@ -31,28 +31,10 @@ const Routes: FC<any> = () => {
       setOpportunityPictures(resolvedPictures[1].photos);
       setSpiritPictures(resolvedPictures[2].photos);
     });
-  }, []);
+  }, [date]);
 
   const handleOnNavbarIconClick = () => {
     window.location.hash = '/';
-  };
-
-  const handleOnSearchButtonClick = () => {
-    Promise.all([
-      getData(
-        `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${date}&api_key=${API_KEY}`
-      ),
-      getData(
-        `https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?earth_date=${date}&api_key=${API_KEY}`
-      ),
-      getData(
-        `https://api.nasa.gov/mars-photos/api/v1/rovers/spirit/photos?earth_date=${date}&api_key=${API_KEY}`
-      ),
-    ]).then((resolvedPictures: any[]) => {
-      setCuriosityPictures(resolvedPictures[0].photos);
-      setOpportunityPictures(resolvedPictures[1].photos);
-      setSpiritPictures(resolvedPictures[2].photos);
-    });
   };
 
   return (
@@ -62,7 +44,6 @@ const Routes: FC<any> = () => {
           date={date}
           setDate={setDate}
           onIconClick={handleOnNavbarIconClick}
-          onSearchButtonClick={handleOnSearchButtonClick}
         />
         <Switch>
           <Route
