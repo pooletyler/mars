@@ -1,0 +1,26 @@
+.Navbar--container {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  background-color: #efefef;
+  justify-content: space-between;
+}
+
+.Navbar--icon {
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.Navbar--nasa {
+  margin-left: 20px;
+}
+
+.Navbar--search {
+  display: flex;
+  margin: auto 0;
+}
+
+.Navbar--searchButton {
+  display: flex;
+  margin: 0 10px;
+}

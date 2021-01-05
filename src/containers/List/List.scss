@@ -1,0 +1,35 @@
+.List--container {
+  overflow: scroll;
+  padding-top: 10px;
+}
+
+.List--containerTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: #efefef;
+  letter-spacing: 0;
+  margin: 40px 0 20px 20px;
+}
+
+.List--pictures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 90vw;
+  height: auto;
+  border-radius: 20px;
+  background-color: #efefef;
+}
+
+.List--picture {
+  margin: 10px 0;
+}
+
+.List--noResults {
+  font-size: 16px;
+  font-weight: 600;
+  color: #282828ce;
+  letter-spacing: 0;
+  margin: 40px 0;
+}
