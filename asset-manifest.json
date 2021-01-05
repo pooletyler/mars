@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mars/static/css/main.75729402.chunk.css",
+    "main.js": "/mars/static/js/main.8364206b.chunk.js",
+    "main.js.map": "/mars/static/js/main.8364206b.chunk.js.map",
+    "runtime-main.js": "/mars/static/js/runtime-main.bb618989.js",
+    "runtime-main.js.map": "/mars/static/js/runtime-main.bb618989.js.map",
+    "static/js/2.096a1411.chunk.js": "/mars/static/js/2.096a1411.chunk.js",
+    "static/js/2.096a1411.chunk.js.map": "/mars/static/js/2.096a1411.chunk.js.map",
+    "index.html": "/mars/index.html",
+    "precache-manifest.c357175c8cf61dbad3e078cffec6ef21.js": "/mars/precache-manifest.c357175c8cf61dbad3e078cffec6ef21.js",
+    "service-worker.js": "/mars/service-worker.js",
+    "static/css/main.75729402.chunk.css.map": "/mars/static/css/main.75729402.chunk.css.map",
+    "static/js/2.096a1411.chunk.js.LICENSE.txt": "/mars/static/js/2.096a1411.chunk.js.LICENSE.txt",
+    "static/media/nasa.ee15e8fa.svg": "/mars/static/media/nasa.ee15e8fa.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb618989.js",
+    "static/js/2.096a1411.chunk.js",
+    "static/css/main.75729402.chunk.css",
+    "static/js/main.8364206b.chunk.js"
+  ]
+}
